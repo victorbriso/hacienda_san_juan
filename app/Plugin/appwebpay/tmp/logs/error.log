@@ -1,0 +1,946 @@
+2016-08-16 11:16:14 Error: [ConfigureException] Could not load configuration file: D:\wamp\www\code\oneclick\Plugin\Webpay\Config\Oneclick.php
+Request URL: /code/oneclick/
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\Configure.php(329): PhpReader->read('Webpay.Oneclick')
+#1 D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php(9): Configure::load('Webpay.Oneclick')
+#2 [internal function]: OneclickComponent->initialize(Object(ComprasController))
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Controller\Controller.php(677): CakeEventManager->dispatch(Object(CakeEvent))
+#7 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#8 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#9 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-08-16 11:16:14 Error: Fatal Error (256): [MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(297): ExceptionRenderer->_outputMessage('error500')
+#4 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(210): ExceptionRenderer->_outputMessage('configure')
+#5 [internal function]: ExceptionRenderer->_cakeError(Object(ConfigureException))
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#7 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#8 [internal function]: ErrorHandler::handleException(Object(ConfigureException))
+#9 {main} in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:16:14 Error: Fatal Error (1): Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(297): ExceptionRenderer->_outputMessage('error500')
+#4 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(210): ExceptionRenderer->_outputMessage('configure')
+#5 [internal function]: ExceptionRenderer->_cakeError(Object(ConfigureException))
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#7 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRe in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:16:14 Error: [FatalErrorException] Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(297): ExceptionRenderer->_outputMessage('error500')
+#4 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(210): ExceptionRenderer->_outputMessage('configure')
+#5 [internal function]: ExceptionRenderer->_cakeError(Object(ConfigureException))
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#7 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRe
+Request URL: /code/oneclick/
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138)
+#1 [internal function]: ErrorHandler::handleError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:23:31 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [D:\wamp\www\code\oneclick\Config\webpay.php, line 8]
+2016-08-16 11:23:31 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /code/oneclick/
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\wamp\\www\\cod...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\wamp\\www\\cod...', 8, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\wamp\\www\\cod...', 8, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:40:10 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'OneclickWS.php' (include_path='.;C:\php\pear') in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 4]
+2016-08-16 11:40:10 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'OneclickWS.php' (include_path='.;C:\php\pear')
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', 'D:\\wamp\\www\\cod...', 4)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', 'D:\\wamp\\www\\cod...', 4, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', 'D:\\wamp\\www\\cod...', 4, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:40:52 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:40:52 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:41:40 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:41:40 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:41:46 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:41:46 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:41:59 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:41:59 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:42:42 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:42:42 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:42:44 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:42:44 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:43:04 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:43:04 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:43:05 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:43:05 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:43:06 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:43:06 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:43:37 Error: Fatal Error (1): Class 'OneclickSoapClient' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 28]
+2016-08-16 11:43:37 Error: [FatalErrorException] Class 'OneclickSoapClient' not found
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Oneclick...', 'D:\\wamp\\www\\cod...', 28, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:46:48 Error: [SoapFault] SoapClient::SoapClient() [<a href='http://php.net/soapclient.soapclient'>soapclient.soapclient</a> : Invalid parameters
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php(27): SoapClient->SoapClient()
+#1 D:\wamp\www\code\oneclick\Controller\ComprasController.php(8): OneclickComponent->initInscripcion()
+#2 [internal function]: ComprasController->inscripcion()
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#4 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#6 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-16 11:46:48 Error: Fatal Error (256): [MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main} in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:46:48 Error: Fatal Error (1): Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main}' in D:\wamp\www\code\oneclick\Cake\2.8.4\ in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:46:48 Error: [FatalErrorException] Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main}' in D:\wamp\www\code\oneclick\Cake\2.8.4\
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138)
+#1 [internal function]: ErrorHandler::handleError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:47:40 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'D:\wamp\www\code\oneclick\Plugin\Webpay\Vendor\oneclick/wss/xmlsxeclibs.php' (include_path='.;C:\php\pear') in [D:\wamp\www\code\oneclick\Plugin\Webpay\Vendor\oneclick\OneclickSoapClient.php, line 2]
+2016-08-16 11:47:40 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'D:\wamp\www\code\oneclick\Plugin\Webpay\Vendor\oneclick/wss/xmlsxeclibs.php' (include_path='.;C:\php\pear')
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require_once() ...', 'D:\\wamp\\www\\cod...', 2)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', 'D:\\wamp\\www\\cod...', 2, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', 'D:\\wamp\\www\\cod...', 2, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:47:55 Error: [SoapFault] SoapClient::SoapClient() [<a href='http://php.net/soapclient.soapclient'>soapclient.soapclient</a> : Invalid parameters
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php(27): SoapClient->SoapClient()
+#1 D:\wamp\www\code\oneclick\Controller\ComprasController.php(8): OneclickComponent->initInscripcion()
+#2 [internal function]: ComprasController->inscripcion()
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#4 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#6 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-16 11:47:55 Error: Fatal Error (256): [MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main} in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:47:55 Error: Fatal Error (1): Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main}' in D:\wamp\www\code\oneclick\Cake\2.8.4\ in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:47:55 Error: [FatalErrorException] Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main}' in D:\wamp\www\code\oneclick\Cake\2.8.4\
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138)
+#1 [internal function]: ErrorHandler::handleError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:55:52 Error: [SoapFault] SoapClient::SoapClient() [<a href='http://php.net/soapclient.soapclient'>soapclient.soapclient</a> : Invalid parameters
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php(27): SoapClient->SoapClient()
+#1 D:\wamp\www\code\oneclick\Controller\ComprasController.php(8): OneclickComponent->initInscripcion()
+#2 [internal function]: ComprasController->inscripcion()
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#4 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#6 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-16 11:55:52 Error: Fatal Error (256): [MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main} in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:55:52 Error: Fatal Error (1): Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main}' in D:\wamp\www\code\oneclick\Cake\2.8.4\ in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:55:52 Error: [FatalErrorException] Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main}' in D:\wamp\www\code\oneclick\Cake\2.8.4\
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138)
+#1 [internal function]: ErrorHandler::handleError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:56:09 Error: [SoapFault] SoapClient::SoapClient() [<a href='http://php.net/soapclient.soapclient'>soapclient.soapclient</a> : Invalid parameters
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php(27): SoapClient->SoapClient()
+#1 D:\wamp\www\code\oneclick\Controller\ComprasController.php(8): OneclickComponent->initInscripcion()
+#2 [internal function]: ComprasController->inscripcion()
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#4 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#6 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-16 11:56:09 Error: Fatal Error (256): [MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main} in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:56:09 Error: Fatal Error (1): Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main}' in D:\wamp\www\code\oneclick\Cake\2.8.4\ in [D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php, line 138]
+2016-08-16 11:56:09 Error: [FatalErrorException] Uncaught exception 'FatalErrorException' with message '[MissingViewException] View file "Errors\error500.ctp" is missing.
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\View\View.php(470): View->_getViewFileName('error500')
+#1 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(325): View->render('error500', 'error')
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(295): ExceptionRenderer->_outputMessageSafe('error500')
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(257): ExceptionRenderer->_outputMessage('error500')
+#4 [internal function]: ExceptionRenderer->error500(Object(SoapFault))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ExceptionRenderer.php(187): call_user_func_array(Array, Array)
+#6 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(127): ExceptionRenderer->render()
+#7 [internal function]: ErrorHandler::handleException(Object(SoapFault))
+#8 {main}' in D:\wamp\www\code\oneclick\Cake\2.8.4\
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138)
+#1 [internal function]: ErrorHandler::handleError(1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Uncaught except...', 'D:\\wamp\\www\\cod...', 138, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.4\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 11:58:32 Error: [SoapFault] SoapClient::SoapClient() [<a href='http://php.net/soapclient.soapclient'>soapclient.soapclient</a> : Invalid parameters
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php(27): SoapClient->SoapClient()
+#1 D:\wamp\www\code\oneclick\Controller\ComprasController.php(8): OneclickComponent->initInscripcion()
+#2 [internal function]: ComprasController->inscripcion()
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#4 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#6 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-16 11:58:32 Error: Fatal Error (1): SoapClient::SoapClient() [<a href='http://php.net/soapclient.soapclient'>soapclient.soapclient</a>]: Invalid parameters in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 27]
+2016-08-16 11:58:32 Error: [FatalErrorException] SoapClient::SoapClient() [<a href='http://php.net/soapclient.soapclient'>soapclient.soapclient</a>]: Invalid parameters
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'SoapClient::Soa...', 'D:\\wamp\\www\\cod...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'SoapClient::Soa...', 'D:\\wamp\\www\\cod...', 27, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'SoapClient::Soa...', 'D:\\wamp\\www\\cod...', 27, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 12:13:24 Error: [Exception] Faltan datos de entrada ($username, $email, $responseURL)
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Controller\ComprasController.php(8): OneclickComponent->initInscripcion()
+#1 [internal function]: ComprasController->inscripcion()
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-08-16 12:13:38 Error: [Exception] Faltan datos de entrada ($username, $email, $responseURL)
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Controller\ComprasController.php(8): OneclickComponent->initInscripcion()
+#1 [internal function]: ComprasController->inscripcion()
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-08-16 12:14:57 Error: Fatal Error (1): Call to a member function initInscription() on null in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 35]
+2016-08-16 12:14:57 Error: [FatalErrorException] Call to a member function initInscription() on null
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 35, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 35, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 12:18:24 Error: Fatal Error (1): Call to a member function initInscription() on null in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 45]
+2016-08-16 12:18:24 Error: [FatalErrorException] Call to a member function initInscription() on null
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 45, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 45, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 12:19:27 Error: [Exception] Respuesta del Webservice Oneclick no está correctamente firmado o el certificado de servidor es incorrecto.
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Controller\ComprasController.php(11): OneclickComponent->initInscripcion('alvaro@reach-la...', 'alvaro@reach-la...', 'http://dev.reac...')
+#1 [internal function]: ComprasController->inscripcion()
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-08-16 12:26:52 Error: Fatal Error (1): Call to undefined method OneclickComponent::set() in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 64]
+2016-08-16 12:26:52 Error: [FatalErrorException] Call to undefined method OneclickComponent::set()
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 64, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 64, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 12:27:58 Error: Fatal Error (1): Call to undefined method OneclickComponent::redirect() in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 65]
+2016-08-16 12:27:58 Error: [FatalErrorException] Call to undefined method OneclickComponent::redirect()
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 65, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 65, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 12:29:42 Error: [MissingActionException] Action OneclickController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'OneclickController',
+  'action' => '<pre class=',
+)
+Request URL: /code/oneclick/webpay/oneclick/%3Cpre%20class=?TBK_TOKEN=%3Cpre+class%3D
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 12:29:50 Error: [MissingActionException] Action OneclickController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'OneclickController',
+  'action' => '<pre class=',
+)
+Request URL: /code/oneclick/webpay/oneclick/%3Cpre%20class=?TBK_TOKEN=%3Cpre+class%3D
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 12:29:51 Error: [MissingActionException] Action OneclickController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'OneclickController',
+  'action' => '<pre class=',
+)
+Request URL: /code/oneclick/webpay/oneclick/%3Cpre%20class=?TBK_TOKEN=%3Cpre+class%3D
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 12:30:45 Error: [MissingActionException] Action OneclickController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'OneclickController',
+  'action' => '<pre class=',
+)
+Request URL: /code/oneclick/webpay/oneclick/%3Cpre%20class=?TBK_TOKEN=%3Cpre+class%3D
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 12:31:04 Error: [MissingActionException] Action OneclickController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'OneclickController',
+  'action' => '<pre class=',
+)
+Request URL: /code/oneclick/webpay/oneclick/%3Cpre%20class=?TBK_TOKEN=%3Cpre+class%3D
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 12:31:06 Error: [MissingActionException] Action OneclickController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'OneclickController',
+  'action' => '<pre class=',
+)
+Request URL: /code/oneclick/webpay/oneclick/%3Cpre%20class=?TBK_TOKEN=%3Cpre+class%3D
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 12:32:53 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 67]
+2016-08-16 12:32:53 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\\wamp\\www\\cod...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\\wamp\\www\\cod...', 67, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\\wamp\\www\\cod...', 67, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 12:35:13 Error: [MissingControllerException] Controller class WebpayController could not be found.
+Exception Attributes: array (
+  'class' => 'WebpayController',
+  'plugin' => 'Webpay',
+)
+Request URL: /code/oneclick/webpay
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-16 12:35:17 Error: [MissingActionException] Action OneclickController::<pre class=() could not be found.
+Exception Attributes: array (
+  'controller' => 'OneclickController',
+  'action' => '<pre class=',
+)
+Request URL: /code/oneclick/webpay/oneclick/%3Cpre%20class=?TBK_TOKEN=%3Cpre+class%3D
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 12:53:32 Error: [Exception] Respuesta Oneclick con código de error: -3
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Controller\ComprasController.php(10): OneclickComponent->finishInscripcion('e8b970802d11f16...')
+#1 [internal function]: ComprasController->inscripcion()
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-08-16 12:54:52 Error: [Exception] Proceso de inscripción rechazado por Oneclick. Código de error: -3
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Controller\ComprasController.php(10): OneclickComponent->finishInscripcion('e8b970802d11f16...')
+#1 [internal function]: ComprasController->inscripcion()
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#5 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-08-16 12:56:00 Error: [SoapFault] Could not connect to host
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Plugin\Webpay\Vendor\oneclick\OneclickSoapClient.php(19): SoapClient->__doRequest('<?xml version="...', 'https://webpay3...', '', 1, 0)
+#1 [internal function]: OneclickSoapClient->__doRequest('<?xml version="...', 'https://webpay3...', '', 1, 0)
+#2 D:\wamp\www\code\oneclick\Plugin\Webpay\Vendor\oneclick\OneclickWS.php(123): SoapClient->__call('initInscription', Array)
+#3 D:\wamp\www\code\oneclick\Plugin\Webpay\Vendor\oneclick\OneclickWS.php(123): OneclickSoapClient->initInscription(Array)
+#4 D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php(47): OneclickWS->initInscription(Array)
+#5 D:\wamp\www\code\oneclick\Controller\ComprasController.php(17): OneclickComponent->initInscripcion('alvaro@reach-la...', 'alvaro@reach-la...', 'http://dev.reac...')
+#6 [internal function]: ComprasController->inscripcion()
+#7 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ComprasController), Array)
+#8 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#10 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-08-16 12:58:05 Error: Fatal Error (1): Call to undefined method Exception::getMeesage() in [D:\wamp\www\code\oneclick\Controller\ComprasController.php, line 23]
+2016-08-16 12:58:05 Error: [FatalErrorException] Call to undefined method Exception::getMeesage()
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 23, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\\wamp\\www\\cod...', 23, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 15:05:39 Error: [MissingActionException] Action ComprasController::baja() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'baja',
+)
+Request URL: /code/oneclick/compras/baja
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 15:18:33 Error: [MissingActionException] Action ComprasController::baja() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'baja',
+)
+Request URL: /code/oneclick/compras/baja
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 16:02:33 Error: [MissingActionException] Action ComprasController::baja() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'baja',
+)
+Request URL: /code/oneclick/compras/baja
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 16:02:34 Error: [MissingActionException] Action ComprasController::baja() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'baja',
+)
+Request URL: /code/oneclick/compras/baja
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 16:02:40 Error: [MissingActionException] Action ComprasController::baja() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'baja',
+)
+Request URL: /code/oneclick/compras/baja
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-16 16:10:46 Error: Fatal Error (1): Class 'oneClickRemoveUserInputInput' not found in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 133]
+2016-08-16 16:10:46 Error: [FatalErrorException] Class 'oneClickRemoveUserInputInput' not found
+Request URL: /code/oneclick/compras/baja
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'oneClick...', 'D:\\wamp\\www\\cod...', 133)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'oneClick...', 'D:\\wamp\\www\\cod...', 133, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'oneClick...', 'D:\\wamp\\www\\cod...', 133, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-16 16:18:42 Error: [MissingViewException] View file "Compras\pago.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Compras\\pago.ctp',
+)
+Request URL: /code/oneclick/compras/pago
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Controller\Controller.php(963): View->render(NULL, NULL)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#4 D:\wamp\www\code\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-08-16 16:27:52 Error: Fatal Error (1): Call to a member function initInscription() on null in [D:\wamp\www\code\oneclick\Plugin\Webpay\Controller\Component\OneclickComponent.php, line 63]
+2016-08-16 16:27:52 Error: [FatalErrorException] Call to a member function initInscription() on null
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 63, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\\wamp\\www\\cod...', 63, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-17 12:23:34 Error: Fatal Error (1): SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://webpay3gint.transbank.cl/webpayserver/wswebpay/OneClickPaymentService?wsdl' : failed to load external entity "https://webpay3gint.transbank.cl/webpayserver/wswebpay/OneClickPaymentService?wsdl"
+ in [D:\wamp\www\code\oneclick\Plugin\Webpay\Vendor\oneclick\OneclickWS.php, line 115]
+2017-03-17 12:23:34 Error: [FatalErrorException] SOAP-ERROR: Parsing WSDL: Couldn't load from 'https://webpay3gint.transbank.cl/webpayserver/wswebpay/OneClickPaymentService?wsdl' : failed to load external entity "https://webpay3gint.transbank.cl/webpayserver/wswebpay/OneClickPaymentService?wsdl"
+
+Request URL: /code/oneclick/compras/inscripcion
+Stack Trace:
+#0 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'SOAP-ERROR: Par...', 'D:\\wamp\\www\\cod...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'SOAP-ERROR: Par...', 'D:\\wamp\\www\\cod...', 115, Array)
+#2 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(970): call_user_func('ErrorHandler::h...', 1, 'SOAP-ERROR: Par...', 'D:\\wamp\\www\\cod...', 115, Array)
+#3 D:\wamp\www\code\oneclick\Cake\2.8.6\lib\Cake\Core\App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-22 10:28:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /oneclick/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\wamp\www\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-22 10:28:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /oneclick/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\wamp\www\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-22 10:28:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /oneclick/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\wamp\www\oneclick\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-23 11:20:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /webpay/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\wamp\www\webpay\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-23 11:20:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /webpay/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\wamp\www\webpay\webroot\index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-23 12:28:22 Error: [MissingViewException] View file "PagoSimultaneo/transaccion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'PagoSimultaneo/transaccion.ctp',
+)
+Request URL: /transbank/webpay/webpay/pagosimultaneo/transaccion?token=ec5e548886311042aa57fdf89b3968cb293ea7a88d139c7b6feb6c299f03602c&url=https%3A%2F%2Fwebpay3gint.transbank.cl%2FfiltroUnificado%2FinitTransaction
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagoSimultaneoController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-23 12:31:02 Error: [MissingViewException] View file "PagoSimultaneo/transaccion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'PagoSimultaneo/transaccion.ctp',
+)
+Request URL: /transbank/webpay/webpay/pagosimultaneo/transaccion?token=e050fc929ac1bb2e4714cad1626b06a37aa3b1bc82a4ca3cf466367e9b59ca29&url=https%3A%2F%2Fwebpay3gint.transbank.cl%2FfiltroUnificado%2FinitTransaction
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagoSimultaneoController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-23 12:34:27 Error: [MissingViewException] View file "PagoSimultaneo/transaccion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'PagoSimultaneo/transaccion.ctp',
+)
+Request URL: /transbank/webpay/webpay/pagosimultaneo/transaccion?token=e0150c405b01ca3fa265e2c60a07fcc496ccd5a9db5dfe366e1f560b625d5575&url=https%3A%2F%2Fwebpay3gint.transbank.cl%2FfiltroUnificado%2FinitTransaction
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagoSimultaneoController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-23 12:39:08 Error: Fatal Error (1): Cannot redeclare class baseBean in [/home/reachlatam/public_qa/transbank/webpay/Plugin/Webpay/Vendor/anulacion/AnulacionWS.php, line 16]
+2017-03-23 12:39:08 Error: [FatalErrorException] Cannot redeclare class baseBean
+Request URL: /transbank/webpay/compras/anularCompra
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/home/reachlata...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot redeclar...', '/home/reachlata...', 16, Array)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Cannot redeclar...', '/home/reachlata...', 16, Array)
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-23 14:58:16 Error: [MissingViewException] View file "Oneclick/inscripcion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Oneclick/inscripcion.ctp',
+)
+Request URL: /transbank/webpay/webpay/oneclick/inscripcion?token=e2362982b0e2c342478ecba47f5021748bfaf38ac71c048e84fcc53392cfb8f5&url=https%3A%2F%2Fwebpay3gint.transbank.cl%2FfiltroUnificado%2Fbp_inscription.cgi
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-23 14:59:04 Error: [MissingViewException] View file "Oneclick/inscripcion.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Oneclick/inscripcion.ctp',
+)
+Request URL: /transbank/webpay/webpay/oneclick/inscripcion?token=ee0eb32d0b0c916d0cf50a70ee3a958e93bc8a53a44a7b3c4db7905dba054677&url=https%3A%2F%2Fwebpay3gint.transbank.cl%2FfiltroUnificado%2Fbp_inscription.cgi
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-23 14:59:56 Error: [MissingActionException] Action OneclickController::inscripcionOneclick() could not be found.
+Exception Attributes: array (
+  'controller' => 'OneclickController',
+  'action' => 'inscripcionOneclick',
+)
+Request URL: /transbank/webpay/webpay/oneclick/inscripcionOneclick?token=e304bd966d85019ebbf5fcc8ba334080737ec9a6574eff639779636b7138bb74&url=https%3A%2F%2Fwebpay3gint.transbank.cl%2FfiltroUnificado%2Fbp_inscription.cgi
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#2 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-23 15:00:35 Error: [MissingViewException] View file "Oneclick/inscripcion_oneclick.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Oneclick/inscripcion_oneclick.ctp',
+)
+Request URL: /transbank/webpay/webpay/oneclick/inscripcionOneclick?token=ebe7c612a0b067828998a1eb2eb238f606fb63fabfef2f1408094bb2a2280492&url=https%3A%2F%2Fwebpay3gint.transbank.cl%2FfiltroUnificado%2Fbp_inscription.cgi
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OneclickController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-23 15:01:26 Error: [MissingActionException] Action ComprasController::inscripcion() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'inscripcion',
+)
+Request URL: /transbank/webpay/compras/inscripcion
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-23 15:02:40 Error: [MissingActionException] Action ComprasController::inscripcion() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'inscripcion',
+)
+Request URL: /transbank/webpay/compras/inscripcion
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-23 15:33:33 Error: [MissingActionException] Action ComprasController::pagoRechazado() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'pagoRechazado',
+)
+Request URL: /transbank/webpay/compras/pagoRechazado
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-23 15:34:34 Error: [MissingViewException] View file "Compras/pago_rechazado.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Compras/pago_rechazado.ctp',
+)
+Request URL: /transbank/webpay/compras/pagoRechazado
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-23 15:56:49 Error: [MissingViewException] View file "Compras/compra_pago_simultaneo.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Compras/compra_pago_simultaneo.ctp',
+)
+Request URL: /transbank/webpay/compras/compraPagoSimultaneo
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-23 15:58:19 Error: Fatal Error (4): syntax error, unexpected ',' in [/home/reachlatam/public_qa/transbank/webpay/Controller/ComprasController.php, line 162]
+2017-03-23 15:58:19 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /transbank/webpay/compras/compraPagoSimultaneo
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/reachlata...', 162)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/reachlata...', 162, Array)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/reachlata...', 162, Array)
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-23 16:12:31 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/reachlatam/public_qa/transbank/webpay/Controller/ComprasController.php, line 318]
+2017-03-23 16:12:31 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /transbank/webpay/compras/compraPagoSimultaneo
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/reachlata...', 318)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/reachlata...', 318, Array)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/reachlata...', 318, Array)
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-23 16:28:44 Error: [MissingActionException] Action ComprasController::baja() could not be found.
+Exception Attributes: array (
+  'controller' => 'ComprasController',
+  'action' => 'baja',
+)
+Request URL: /transbank/webpay/compras/baja
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#2 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-23 16:31:34 Error: [MissingViewException] View file "Compras/pago_oneclick.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Compras/pago_oneclick.ctp',
+)
+Request URL: /transbank/webpay/compras/pagoOneclick
+Stack Trace:
+#0 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/reachlatam/public_qa/transbank/webpay/Cake/2.8.6/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ComprasController), Object(CakeRequest))
+#4 /home/reachlatam/public_qa/transbank/webpay/webroot/index.php(86): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

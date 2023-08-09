@@ -1,0 +1,3 @@
+[23-Mar-2017 12:39:08 America/Santiago] PHP Fatal error:  Cannot redeclare class baseBean in /home/reachlatam/public_qa/transbank/webpay/Plugin/Webpay/Vendor/anulacion/AnulacionWS.php on line 16
+[23-Mar-2017 15:58:19 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/reachlatam/public_qa/transbank/webpay/Controller/ComprasController.php on line 162
+[23-Mar-2017 16:12:31 America/Santiago] PHP Parse error:  syntax error, unexpected ';' in /home/reachlatam/public_qa/transbank/webpay/Controller/ComprasController.php on line 318
